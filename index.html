@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon-32x32 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png"
+    />
+
+    <!-- other links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+    <div class="main" id="main-card">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="" id="star" />
+      </div>
+
+      <div class="how">
+        <h2 class="bigger">How did we do?</h2>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+
+      <!-- buttons -->
+      <div class="buttons">
+        <button class="button a" id="button-1" value="1">1</button>
+        <button class="button b" id="button-2" value="2">2</button>
+        <button class="button c" id="button-3" value="3">3</button>
+        <button class="button d" id="button-4" value="4">4</button>
+        <button class="button e" id="button-5" value="5">5</button>
+      </div>
+      <!-- 
+      submit -->
+      <input id="submit" class="btn btn-primary" type="submit" value="Submit" />
+    </div>
+
+    <!-- thank you -->
+    <div class="thanks" id="thanks-card">
+      <div id="output"></div>
+      <h2>Thank you!</h2>
+      <img src="images/illustration-thank-you.svg" alt="" />
+     <p  class="text"> We appreciate you taking the time to give a rating. If you ever need more
+      support, don’t hesitate to get in touch!</p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Moses LU</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
